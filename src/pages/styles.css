@@ -1,0 +1,96 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+  font: 22px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.2em;
+  /* From https://webgradients.com/  */
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+    background-color: black;
+    height: 12vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.content_body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 28px;
+}
+
+.btn {
+    text-align: center;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 27px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.input-text {
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #dce4ec;
+    width: 100%;
+    margin-right: 15px;
+    border-radius: 2em;
+    padding: 5px 10px;
+    transition: border 250ms ease-out;
+  }
+  
+  .input-text:focus {
+    border: 1px solid;
+    outline: none;
+  }
+
+  .main_div {
+    width: 472px;
+  }
+
+  .card-container > h1 {
+    font-size: 1rem;
+
+  }
+
+  .card-container > h3 {
+    font-size: 1rem;
+    color: #cf3917;
+
+}
+
+
+  @media screen and (max-width: 500px) {
+    .main_div {
+        width: 360px;
+        height: 100vh;
+    }
+  }
